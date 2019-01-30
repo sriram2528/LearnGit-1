@@ -31,6 +31,7 @@ subplot(2,1,1);
 plot(T,X); hold on; box on; grid on;
 plot(T,cos(T),'k'); 
 
+
 ylabel('system states (x)');
 legend('x1','x2');
 subplot(2,1,2); 
